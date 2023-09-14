@@ -13,7 +13,7 @@ mongoose.connect(db_link)
     })
 
 const transactionData = mongoose.Schema([{
-    date: String,
+    date: Date,
     data: [],
 }])
 
